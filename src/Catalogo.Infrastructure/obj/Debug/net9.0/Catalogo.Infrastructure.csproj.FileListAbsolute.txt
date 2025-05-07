@@ -1,0 +1,17 @@
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Infrastructure.deps.json
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Infrastructure.dll
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Infrastructure.pdb
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.AssemblyInfoInputs.cache
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.AssemblyInfo.cs
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.dll
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\refint\Catalogo.Infrastructure.dll
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.pdb
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\ref\Catalogo.Infrastructure.dll
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Application.dll
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Domain.dll
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Application.pdb
+C:\Catalogo\src\Catalogo.Infrastructure\bin\Debug\net9.0\Catalogo.Domain.pdb
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.Infrastructure.csproj.AssemblyReference.cache
+C:\Catalogo\src\Catalogo.Infrastructure\obj\Debug\net9.0\Catalogo.3A12E00E.Up2Date

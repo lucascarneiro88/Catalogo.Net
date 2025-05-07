@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Catalogo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Catalogo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Catalogo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalogo.Application.dll": {}
+        }
+      },
+      "Catalogo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Catalogo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalogo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Catalogo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Catalogo.Application/Catalogo.Application.csproj",
+      "msbuildProject": "../Catalogo.Application/Catalogo.Application.csproj"
+    },
+    "Catalogo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Catalogo.Domain/Catalogo.Domain.csproj",
+      "msbuildProject": "../Catalogo.Domain/Catalogo.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Catalogo.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuário\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Catalogo\\src\\Catalogo.Infrastructure\\Catalogo.Infrastructure.csproj",
+      "projectName": "Catalogo.Infrastructure",
+      "projectPath": "C:\\Catalogo\\src\\Catalogo.Infrastructure\\Catalogo.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+      "outputPath": "C:\\Catalogo\\src\\Catalogo.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Catalogo\\src\\Catalogo.Application\\Catalogo.Application.csproj": {
+              "projectPath": "C:\\Catalogo\\src\\Catalogo.Application\\Catalogo.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
