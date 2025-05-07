@@ -1,0 +1,36 @@
+# Ignora pastas de build
+bin/
+obj/
+
+# Ignora arquivos temporários do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignora arquivos do Rider
+.idea/
+
+# Ignora arquivos de log e cache
+*.log
+*.cache
+
+# Ignora configurações locais do VS Code
+.vscode/
+
+# Ignora pacotes NuGet baixados
+packages/
+*.nupkg
+*.snupkg
+
+# Ignora arquivos gerados pelo build
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignora configurações temporárias do MSBuild
+*.csproj.nuget.dgspec.json
+*.csproj.FileListAbsolute.txt
+*.csprojAssemblyReference.cache
+*.nuget.props
+*.nuget.targets
