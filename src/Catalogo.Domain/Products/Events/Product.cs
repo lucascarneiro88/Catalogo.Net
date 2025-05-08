@@ -14,6 +14,8 @@ public sealed class Product : Entity
     public string? Description { get; set; }
     public string? ImageUrl { get; set; }
 
+    public string? Code {get; set;}
+
 
     //constructor
     private Product(
@@ -21,13 +23,15 @@ public sealed class Product : Entity
         string name,
         decimal price,
         string description,
-        string imageUrl
+        string imageUrl,
+        string code
     ) : base(id)
     {
         Name = name;
         Price = price;
         Description = description;
         ImageUrl = imageUrl;
+        Code = code;
     }
 
 
@@ -36,7 +40,8 @@ public sealed class Product : Entity
         string name,
         decimal price,
         string description,
-        string imageUrl
+        string imageUrl,
+        string code
 
     )
     {
@@ -45,7 +50,8 @@ public sealed class Product : Entity
             name,
             price,
             description,
-            imageUrl
+            imageUrl,
+            code
         );//bloco para inicializar o produto
 
         var productDomainEvent = new ProductCreatedDomainEvent(product.Id);
