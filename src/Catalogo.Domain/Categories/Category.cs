@@ -3,28 +3,28 @@ using Catalogo.Domain.Abstractions;
 using Catalogo.Domain.Categories.Events;
 
 namespace Catalogo.Domain.Categories;
-public class Category : Entity 
+public class Category : Entity
 
 {
 
-//Atribucto
-public string? Name { get; private set;}
+    //Atribucto
+    public string? Name { get; private set; }
 
-//constructor
-private Category (Guid id, string name) : base(id)
-{
-    Name = name; //injetando valor do name atraves do construtor
-}
+    //constructor
+    private Category(Guid id, string name) : base(id)
+    {
+        Name = name; //injetando valor do name atraves do construtor
+    }
 
 
-//metodo que cria uma nova categoria
-public static Category Create(string name)
-{
-var category = new Category(Guid.NewGuid(), name);//gerando um novo id para a categoria
-var categoryDomainEvent = new CategoryCreatedDomainEvent(category.Id);//criando um novo evento de dominio
-category.RaiseDomainEvent(categoryDomainEvent);
-return category;
-}
+    //metodo que cria uma nova categoria
+    public static Category Create(string name)
+    {
+        var category = new Category(Guid.NewGuid(), name);//gerando um novo id para a categoria
+        var categoryDomainEvent = new CategoryCreatedDomainEvent(category.Id);//criando um novo evento de dominio
+        category.RaiseDomainEvent(categoryDomainEvent);
+        return category;
+    }
 }
 
 

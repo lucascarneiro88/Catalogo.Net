@@ -1,8 +1,8 @@
 namespace Catalogo.Domain.Categories;
 
-public interface ICategoryRepository 
+public interface ICategoryRepository
 {
-//metodo para devolver todas as categorias
+    //metodo para devolver todas as categorias
     Task<List<Category>> GetAll();//task assincrono, para buscar a lista de categorias
     void Add(Category category);//metodo para adicionar uma categoria
 }
