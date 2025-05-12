@@ -10,6 +10,8 @@ public class Category : Entity
     //Atribucto
     public string? Name { get; private set; }
 
+    private Category() {}
+
     //constructor
     private Category(Guid id, string name) : base(id)
     {
