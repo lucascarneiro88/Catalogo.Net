@@ -1,7 +1,7 @@
 using Catalogo.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddInfrastructure(builder.Configuration);//adiciona a infraestrutura ao projeto, como o banco de dados e o logger
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
