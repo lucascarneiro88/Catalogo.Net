@@ -18,7 +18,7 @@ public sealed class Product : Entity
 
     public Guid CategoryId { get; set; }
 
-
+    private Product() {}
     //constructor
     private Product(
         Guid id,
