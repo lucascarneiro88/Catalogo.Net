@@ -34,3 +34,5 @@ artifacts/
 *.csprojAssemblyReference.cache
 *.nuget.props
 *.nuget.targets
+# Ignora arquivos e pastas do Visual Studio
+.vs/
