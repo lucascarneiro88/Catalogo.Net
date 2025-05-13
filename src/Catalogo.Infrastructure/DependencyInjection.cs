@@ -22,7 +22,9 @@ public static class DependencyInjection
             }, LogLevel.Information).EnableSensitiveDataLogging();
             
 
-            opt.UseSqlite(configuration.GetConnectionString("SqliteProduct"));
+            opt.UseSqlite(
+                configuration.GetConnectionString("SqliteProduct")
+            ).UseSnakeCaseNamingConvention();
             
             });
         return services;
