@@ -1,38 +1,42 @@
-# Ignora pastas de build
+# ====== Build Folders ======
 bin/
 obj/
+artifacts/
 
-# Ignora arquivos temporários do Visual Studio
+# ====== User-specific files (Visual Studio) ======
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Ignora arquivos do Rider
+# ====== Rider ======
 .idea/
 
-# Ignora arquivos de log e cache
+# ====== Logs and Cache ======
 *.log
 *.cache
 
-# Ignora configurações locais do VS Code
+# ====== VS Code ======
 .vscode/
 
-# Ignora pacotes NuGet baixados
+# ====== NuGet Packages ======
 packages/
 *.nupkg
 *.snupkg
 
-# Ignora arquivos gerados pelo build
-project.lock.json
-project.fragment.lock.json
-artifacts/
+# ====== SQLite Temporary Files ======
+*.db-shm
+*.db-wal
 
-# Ignora configurações temporárias do MSBuild
+# (Opcional) Ignora banco SQLite local se não quiser versionar:
+# *.db
+
+# ====== MSBuild and NuGet Artifacts ======
 *.csproj.nuget.dgspec.json
 *.csproj.FileListAbsolute.txt
 *.csprojAssemblyReference.cache
 *.nuget.props
 *.nuget.targets
-# Ignora arquivos e pastas do Visual Studio
+
+# ====== Visual Studio Solution Folder ======
 .vs/

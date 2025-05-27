@@ -1,7 +1,9 @@
 using Catalogo.Domain.Abstractions;
 using Catalogo.Domain.Products.Events;
 
-namespace Catologo.Domain.Products;
+
+
+namespace Catalogo.Domain.Products;
 
 
 public sealed class Product : Entity

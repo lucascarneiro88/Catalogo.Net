@@ -1,5 +1,5 @@
-using System.Threading.Tasks;
-using Catalogo.Domain.Infrastructure;
+
+using Catalogo.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 namespace Catalogo.Api.Extensins;

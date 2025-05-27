@@ -1,5 +1,5 @@
 using Catalogo.Domain.Categories;
-using Catologo.Domain.Products;
+using Catalogo.Domain.Products;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Catalogo.Infrastructure.Migrations
 {
     [DbContext(typeof(CatalogoDbContext))]
-    [Migration("20250513193503_CatalogoMigration")]
+    [Migration("20250513192256_CatalogoMigration")]
     partial class CatalogoMigration
     {
         /// <inheritdoc />
